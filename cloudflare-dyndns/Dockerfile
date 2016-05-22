@@ -1,5 +1,5 @@
-FROM ubuntu
-MAINTAINER Marcus Hughes <hello@msh100.uk>
+FROM resin/rpi-raspbian:jessie
+MAINTAINER Gareth Jeanne <contact@garethjeanne.co.uk>
 
 # Update apt and install php-cli
 RUN apt-get update
